@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right,#ff758c,#ff7eb3);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff7eb3;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #ff758c;
+    border-bottom: 2px solid #ff758c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Skills */
+.skill {
+    margin-top: 15px;
+}
+
+.skill-bar {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 10px;
+    background: #ff758c;
+    width: 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Aseena B</h1>
+    <p>Asee • She/Her</p>
+    <p>M.Sc Computer Science | Software Trainer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#family">Family</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a Computer Science postgraduate passionate about teaching,
+            programming, and helping students understand technology in a
+            simple and practical way. I enjoy learning new tools and guiding
+            beginners in programming and software development.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <p><b>Bachelor of Computer Applications (BCA)</b></p>
+        <p><b>M.Sc Computer Science</b></p>
+        <p>Passed Post Graduation with <b>First Class and Distinction</b>.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills & Interests</h2>
+    <div class="card">
+
+        <div class="skill">
+            C / C++
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:80%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            PHP & Web Development
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:75%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            Python
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:70%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            Teaching & Training
+            <div class="skill-bar">
+                <div class="skill-fill" style="width:90%"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="family">
+    <h2>Family</h2>
+    <div class="card">
+        <p><b>Marital Status:</b> Married</p>
+        <p><b>Husband:</b> Muhammad Shameer M</p>
+
+        <p><b>Children:</b></p>
+        <ul>
+            <li>Muhammad Ayan</li>
+            <li>Muhammad Ahyan</li>
+        </ul>
+
+        <p><b>Sisters:</b></p>
+        <ul>
+            <li>Rubeena B (Elder)</li>
+            <li>You – Second</li>
+            <li>Ramseena B (Younger)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="work">
+    <h2>Work & Interests</h2>
+    <div class="card">
+        <p>
+            Interested in software training, programming education,
+            and mentoring students. Focused on beginner-friendly teaching
+            methods for programming languages and web technologies.
+        </p>
+        <p><b>Associated with:</b> GTEC, Thrissur, Kerala</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p><b>Email:</b> <i><font color="blue"><u>aseenashameer1510@gmail.com</u></font></i></p>
+        <p><b>Phone:</b> +91 94431 87121</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
